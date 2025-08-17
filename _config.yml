@@ -1,0 +1,98 @@
+title: "Basic Electronics Components"
+theme: just-the-docs
+include:
+  - includes
+url: https://itslevannah.github.io/basicelectronicscomponents/
+
+just_the_docs:
+  nav_sort: custom
+  nav_external_links: false
+
+
+
+nav:
+  - Home: index.md
+  -  Core Theory & Laws of Electronics:
+      - Ohm Law: docs/3_ohmslaw.md
+      - Kirchhoff Current Law (KCL): docs/4_kcl.md
+      - Kirchhoff Voltage Law (KVL): docs/5_kvl.md
+      - Faraday Law: docs/6_faradayslaw.md
+      - Lenz Law: docs/7_lenzslaw.md
+      - Coulomb Law: docs/8_coulombslaw.md
+      - Two Laws of Electrostatics: docs/9_electrostaticslaws.md
+      - Two Laws of Magnetism: docs/10_magnetismlaws.md
+      - Joule Law: docs/11_jouleslaw.md
+      - Basic Electrical Quantities: docs/12_electricalquantities.md
+
+  -  Basic Passive Components:
+      - Resistors: docs/14_resistors.md
+      - Potentiometer / Rheostat: docs/15_potentiometers.md
+      - Capacitors: docs/16_capacitors.md
+      - Inductors: docs/17_inductors.md
+      - Crystal Oscillators: docs/18_crystals.md
+      - Pull-up/Pull-down Resistors: docs/19_pullup_pulldown.md
+
+  -  Basic Active Components:
+      - Diodes: docs/21_diodes.md
+      - Zener Diodes: docs/22_zenerdiodes.md
+      - LEDs: docs/23_leds.md
+      - Transistors (NPN/PNP): docs/24_transistors.md
+      - MOSFETs: docs/25_mosfets.md
+      - Integrated Circuits (IC): docs/26_ics.md
+      - 555 Timer: docs/27_timer555.md
+      - Operational Amplifiers (Op-Amps): docs/28_opamps.md
+
+  -  Electromechanical Components:
+      - Switches: docs/30_switches.md
+      - Relays: docs/31_relays.md
+      - Motors (DC/Stepper): docs/32_motors.md
+      - Servos: docs/33_servos.md
+
+  -  Power Sources & Protection:
+      - Batteries: docs/35_batteries.md
+      - Fuses: docs/36_fuses.md
+      - Transformers: docs/37_transformers.md
+      - Voltage Regulators: docs/38_voltageregulators.md
+      - DC-DC Buck Converters: docs/39_buckconverter.md
+      - Power Supply Modules: docs/40_powersupplymodules.md
+
+  -  Input Devices & Sensors:
+      - LDR / Photoresistors: docs/42_ldr.md
+      - Thermistors / Temperature Sensors: docs/43_thermistors.md
+      - Ultrasonic Sensors (HC-SR04): docs/44_ultrasonicsensor.md
+      - IR Sensors & Remotes: docs/45_irsensors.md
+      - Sound Sensors (Microphones): docs/46_soundsensor.md
+      - Tilt Sensors / Accelerometers: docs/47_accelerometers.md
+      - Hall Effect Sensors: docs/48_halleffect.md
+      - Generic Sensors: docs/49_genericsensors.md
+
+  -  Output Devices & Displays:
+      - Speakers / Buzzers: docs/51_speaker_buzzer.md
+      - LED Indicators: docs/52_ledindicators.md
+      - 7-Segment Displays: docs/53_7segment.md
+      - LCD (16x2): docs/54_lcd.md
+      - OLED Displays: docs/55_oled.md
+      - NeoPixel / WS2812 LED Strips: docs/56_neopixel.md
+      - General Display Modules: docs/57_displaymodules.md
+
+  -  Microcontrollers & Communication Modules:
+      - Arduino Uno: docs/59_arduino_uno.md
+      - ESP8266 / ESP32: docs/60_esp.md
+      - AVR / ATmega328: docs/61_avr.md
+      - Bluetooth Modules (HC-05/06): docs/62_bluetooth.md
+      - WiFi Modules (ESP8266): docs/63_wifimodules.md
+      - RF Modules (433MHz): docs/64_rfmodules.md
+      - IR Transmitter/Receiver: docs/65_irtransceiver.md
+
+  -  Prototyping & Circuit Building Tools:
+      - Breadboard: docs/67_breadboard.md
+      - Jumper Wires: docs/68_jumperwires.md
+      - Schematic vs Circuit: docs/69_schematic_vs_circuit.md
+      - Debouncing: docs/70_debouncing.md
+      - PWM (Pulse Width Modulation): docs/71_pwm.md
+      - Analog vs Digital Signals: docs/72_analog_vs_digital.md
+
+  -  Test & Measurement Equipment:
+      - Multimeter: docs/74_multimeter.md
+      - Oscilloscope: docs/75_oscilloscope.md
+      - Logic Probe / Logic Analyzer: docs/76_logicprobe.md
